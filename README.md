@@ -26,3 +26,8 @@ assertThat(map.get(false)).contains("ba", "baaa", "ba");
 ```java
 final Predicate<String> predicate = "GET"::equals;
 ```
+
+# Articles
+* http://www.javacodegeeks.com/2015/05/constructors-must-be-code-free.html
+* http://www.yegor256.com/2015/02/26/composable-decorators.html
+* http://www.javacodegeeks.com/2014/09/objects-should-be-immutable.html
