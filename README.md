@@ -20,3 +20,9 @@ assertThat(map.get(true)).contains("a", "aaa", "aaa");
 assertThat(map.get(false)).contains("ba", "baaa", "ba");
 ```
 
+# Lambda Functions and closures
+## Weird stuff
+
+```java
+final Predicate<String> predicate = "GET"::equals;
+```
