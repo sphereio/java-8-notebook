@@ -6,7 +6,18 @@
 # Optional
 * http://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/
 
-# Collections
+# Collections and Streams
+
+## Streams
+
+### Stream of Stream
+
+```java
+final Stream<Stream<String>> streamStream = createStreameSomeHow();
+final List<String> result = streamStream
+        .reduce(Stream.empty(), Stream::concat)
+        .collect(toList());
+```
 
 ## Lists
 
