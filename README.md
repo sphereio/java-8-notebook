@@ -38,6 +38,10 @@ assertThat(map.get(false)).contains("ba", "baaa", "ba");
 final Predicate<String> predicate = "GET"::equals;
 ```
 
+# CompletableFuture and CompletionStage
+
+* http://www.jesperdj.com/2015/09/26/the-future-is-completable-in-java-8/
+
 # Articles
 * http://www.javacodegeeks.com/2015/05/constructors-must-be-code-free.html
 * http://www.yegor256.com/2015/02/26/composable-decorators.html
